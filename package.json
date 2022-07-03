@@ -1,0 +1,18 @@
+{
+  "name": "qr-code-component-backend",
+  "version": "1.0.0",
+  "description": "this is a component of qr",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [
+    "qr",
+    "component"
+  ],
+  "author": "ricardo mejias",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
