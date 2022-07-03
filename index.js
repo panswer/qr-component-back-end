@@ -4,7 +4,7 @@ const fs = require('fs');
 
 const app = express();
 
-const staticFolder = path.resolve(__dirname, './wwww/');
+const staticFolder = path.resolve(__dirname, './www/');
 
 if (!fs.existsSync(staticFolder)) {
     console.log("www folder don't found");
