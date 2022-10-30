@@ -17,7 +17,7 @@ services:
     networks:
       - web
     environment:
-      - PORT: 3000
+      PORT: 3000
 
 networks:
   web:
